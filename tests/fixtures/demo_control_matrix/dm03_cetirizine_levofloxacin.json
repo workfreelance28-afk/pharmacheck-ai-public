@@ -1,0 +1,18 @@
+{
+  "scenario_id": "DM-03",
+  "pair": ["cetirizine", "levofloxacin"],
+  "outcomes": [
+    {
+      "provider_id": "dailymed.label",
+      "result": "no_relevant_interaction_found",
+      "complete": true,
+      "documents": []
+    },
+    {
+      "provider_id": "openfda.label",
+      "result": "no_relevant_interaction_found",
+      "complete": true,
+      "documents": []
+    }
+  ]
+}

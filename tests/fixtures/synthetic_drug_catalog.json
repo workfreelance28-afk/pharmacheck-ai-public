@@ -1,0 +1,65 @@
+[
+  {
+    "product_id": "test.alpha.tablet.10",
+    "trade_name": "Тестпрепарат Альфа",
+    "aliases": ["Альфа", "Testdrug Alpha"],
+    "dosage_form": "таблетки",
+    "strength": "10мг",
+    "active_ingredients": ["вещество альфа"],
+    "source_id": "synthetic.catalog"
+  },
+  {
+    "product_id": "test.beta.capsule.20",
+    "trade_name": "Тестпрепарат Бета",
+    "aliases": ["Бета", "Testdrug Beta"],
+    "dosage_form": "капсулы",
+    "strength": "20мг",
+    "active_ingredients": ["вещество бета"],
+    "source_id": "synthetic.catalog"
+  },
+  {
+    "product_id": "test.dual.tablet.5",
+    "trade_name": "Тестпрепарат Дуал",
+    "aliases": ["Дуал"],
+    "dosage_form": "таблетки",
+    "strength": "5мг",
+    "active_ingredients": ["вещество гамма"],
+    "source_id": "synthetic.catalog"
+  },
+  {
+    "product_id": "test.dual.solution.5",
+    "trade_name": "Тестпрепарат Дуал",
+    "aliases": ["Дуал"],
+    "dosage_form": "раствор",
+    "strength": "5мг",
+    "active_ingredients": ["вещество дельта"],
+    "source_id": "synthetic.catalog"
+  },
+  {
+    "product_id": "test.dose.tablet.5",
+    "trade_name": "Тестпрепарат Доза",
+    "aliases": ["Доза"],
+    "dosage_form": "таблетки",
+    "strength": "5мг",
+    "active_ingredients": ["вещество эпсилон"],
+    "source_id": "synthetic.catalog"
+  },
+  {
+    "product_id": "test.dose.tablet.10",
+    "trade_name": "Тестпрепарат Доза",
+    "aliases": ["Доза"],
+    "dosage_form": "таблетки",
+    "strength": "10мг",
+    "active_ingredients": ["вещество дзета"],
+    "source_id": "synthetic.catalog"
+  },
+  {
+    "product_id": "test.yolka.spray",
+    "trade_name": "Тестпрепарат Ёлка",
+    "aliases": ["Ёлка"],
+    "dosage_form": "спрей",
+    "strength": null,
+    "active_ingredients": ["вещество эта"],
+    "source_id": "synthetic.catalog"
+  }
+]

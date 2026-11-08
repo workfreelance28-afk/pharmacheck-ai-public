@@ -1,0 +1,32 @@
+{
+  "scenario_id": "DM-06",
+  "pair": ["ibuprofen", "warfarin"],
+  "outcomes": [
+    {
+      "provider_id": "dailymed.label",
+      "result": "interaction_found",
+      "complete": true,
+      "documents": [
+        {
+          "source_id": "dailymed.label.dm06.warfarin",
+          "spl_set_id": "25146c2b-91dc-452a-8628-23eacd5a9f79",
+          "title": "DailyMed label: Warfarin Sodium Tablets",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=25146c2b-91dc-452a-8628-23eacd5a9f79",
+          "section": "drug_interactions",
+          "source_type": "regulator_label",
+          "source_tier": 2,
+          "_comment": "Same saved warfarin evidence as DM-02 (per the matrix spec). Minimal excerpt confirmed against the live DailyMed page by Codex on 2026-08-12: subsection 7.2 (Drugs that Increase Bleeding Risk, not 7.1), naming ibuprofen among the NSAIDs in the interacting-drugs table.",
+          "verified_section_excerpt": "7.2 Drugs that Increase Bleeding Risk: NSAIDs (e.g., ibuprofen) increase the risk of bleeding. Monitor patients for signs of bleeding.",
+          "match_basis": "direct_ingredient",
+          "counterpart": "ibuprofen"
+        }
+      ]
+    },
+    {
+      "provider_id": "openfda.label",
+      "result": "failed",
+      "complete": false,
+      "failed_queries": ["timeout: openfda.label"]
+    }
+  ]
+}

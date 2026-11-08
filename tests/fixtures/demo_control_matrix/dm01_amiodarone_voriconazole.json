@@ -1,0 +1,38 @@
+{
+  "scenario_id": "DM-01",
+  "pair": ["amiodarone", "voriconazole"],
+  "outcomes": [
+    {
+      "provider_id": "dailymed.label",
+      "result": "interaction_found",
+      "complete": true,
+      "documents": [
+        {
+          "source_id": "dailymed.label.dm01",
+          "spl_set_id": "7bdc2236-3a1a-4210-a9fb-38f860227aa7",
+          "title": "DailyMed label: Amiodarone Hydrochloride Tablets",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=7bdc2236-3a1a-4210-a9fb-38f860227aa7&type=display",
+          "section": "drug_interactions",
+          "source_type": "regulator_label",
+          "source_tier": 2,
+          "_comment": "Minimal excerpt confirmed against the live DailyMed page by Codex on 2026-08-12. Contains only the substantiated elements: the azole antifungal class, the Torsade de Pointes risk, and the avoid-concomitant-use recommendation. No reconstructed monitoring advice or other invented wording, and the word 'voriconazole' does not appear in the label text.",
+          "verified_section_excerpt": "Azole antifungals: Increased risk of Torsade de Pointes. Avoid concomitant use.",
+          "match_basis": "structured_class",
+          "match_target": "voriconazole",
+          "class_match_target": "Azoles",
+          "matched_term": "Azoles",
+          "matched_ingredient": "voriconazole",
+          "additional_urls": [
+            "https://rxnav.nlm.nih.gov/REST/rxclass/class/byRxcui.json?rxcui=121243&relaSource=DailyMed"
+          ]
+        }
+      ]
+    },
+    {
+      "provider_id": "openfda.label",
+      "result": "no_relevant_interaction_found",
+      "complete": true,
+      "documents": []
+    }
+  ]
+}

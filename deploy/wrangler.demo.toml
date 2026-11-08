@@ -1,0 +1,7 @@
+name = "pharmacheck-demo-telegram-relay"
+main = "demo-telegram-relay-worker.js"
+compatibility_date = "2026-08-13"
+workers_dev = true
+
+[vars]
+UPSTREAM_URL = "https://YOUR_GATEWAY_ID.example.apigw.yandexcloud.net/telegram"
